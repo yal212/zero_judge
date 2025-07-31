@@ -5,16 +5,19 @@ s = input()
 # 0 lower 1 upper
 l1 = [0 if char.islower() else 1 for char in s]
 l2 = []
-for i, n in enumerate(l1):
-    if i == 0:
-        count = 1
-    elif last == n:
+count = 1
+last = l1
+for n in l1[1:]:
+    if last == n:
         count += 1
     else:
         l2.append(count)
         count = 1
     last = n
 l2.append(count)
+
+print(l2)
+
 l3 = []
 for n in l2:
     if n == k:
@@ -40,12 +43,11 @@ if 1 in l3:
     if end-m > 0 and l3[end-m] == 2:
         extra += 1
     ans = m + extra
-else:
-    if 2 in l3:
-        if any(l3[i] == 2 and l3[i + 1] == 2 for i in range(len(l3) - 1)):
-            ans = 2*k
-        else:
-            ans = k
+elif 2 in l3:
+    if any(l3[i] == 2 and l3[i + 1] == 2 for i in range(len(l3) - 1)):
+        ans = 2*k
     else:
-        ans = 0
+        ans = k
+else:
+    ans = 0
 print(ans)

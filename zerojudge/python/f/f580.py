@@ -23,5 +23,4 @@ for _ in range(m):
         dice = dices[a-1]
         dice[0], dice[2], dice[4], dice[5] = dice[5], dice[0], dice[2], dice[4]
 
-for dice in dices:
-    print(dice[2], end=" ")
+print(*[dice[2] for dice in dices])
