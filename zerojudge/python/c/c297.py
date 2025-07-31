@@ -20,8 +20,6 @@ def check(bases):
 
 
 while total_outs < b:
-    # print(
-    #     f"before: batter {batter}, rounds {rounds}, outcome {None}, bases {bases}, score {score}, outs {outs}")
     outcome = at_bats[batter][rounds]
     if outcome in hit:
         bases = [base + hit.index(outcome) + 1 for base in bases]
@@ -37,36 +35,5 @@ while total_outs < b:
     if batter == 9:
         batter = 0
         rounds += 1
-    # print(
-    #     f"after: batter {batter}, rounds {rounds}, outcome {outcome}, bases {bases}, score {score}, outs {outs}")
-
 
 print(score)
-
-
-# 範例輸入 #1
-# 5 1B 1B FO GO 1B
-# 5 1B 2B FO FO SO
-# 4 SO HR SO 1B
-# 4 FO FO FO HR
-# 4 1B 1B 1B 1B
-# 4 GO GO 3B GO
-# 4 1B GO GO SO
-# 4 SO GO 2B 2B
-# 4 3B GO GO FO
-# 3
-# 範例輸出 #1
-# 0
-# 範例輸入 #2
-# 5 1B 1B FO GO 1B
-# 5 1B 2B FO FO SO
-# 4 SO HR SO 1B
-# 4 FO FO FO HR
-# 4 1B 1B 1B 1B
-# 4 GO GO 3B GO
-# 4 1B GO GO SO
-# 4 SO GO 2B 2B
-# 4 3B GO GO FO
-# 6
-# 範例輸出 #2
-# 5
