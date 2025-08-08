@@ -20,7 +20,7 @@
 
 ## 📅 Daily Progress Log
 
-### 🗓️ August 7, 2024
+### 🗓️ August 7, 2025
 
 #### ✅ **Completed Problems**
 **Platform:** LeetCode  
@@ -43,7 +43,7 @@
 - Practice more two-pointer problems
 - Review time complexity analysis
 
-### 🗓️ August 8, 2024
+### 🗓️ August 8, 2025
 
 #### ✅ **Completed Problems**
 **Platform:** LeetCode  
