@@ -10,6 +10,7 @@
 - [ ] **LeetCode 238** - Product of Array Except Self
 - [ ] **LeetCode 53** - Maximum Subarray
 - [ ] **LeetCode 15** - 3Sum (Need to optimize - currently TLE)
+- [ ] **Leecode 5**
 
 ### 🔄 Review & Optimization
 - [ ] Revisit TLE solutions and optimize
@@ -47,21 +48,35 @@
 
 #### ✅ **Completed Problems**
 **Platform:** LeetCode  
-**Topic:** Arrays
+**Topic:** Arrays Strings
 
 | Problem | Status | Notes |
 |---------|--------|-------|
-| 56
-| 48
-| 20
-| 125
+| 56 - Merge Intervals | ✅ Solved | Array manipulation and sorting |
+| 48 - Rotate Image | ✅ Solved | In-place matrix rotation |
+| 20 - Valid Parentheses | ✅ Solved | Stack-based solution |
+| 125 - Valid Palindrome | ✅ Solved | Two-pointer approach |
 
 #### 🎯 **Key Learnings**
 
 
 #### 🔄 **Next Steps**
 
+### 🗓️ August 9, 2025
 
+#### ✅ **Completed Problems**
+**Platform:** LeetCode  
+**Topic:** Arrays Strings
+
+| Problem | Status | Notes |
+|---------|--------|-------|
+| 242 - Valid Anagram | ✅ Solved | Character frequency counting |
+| 49 - Group Anagrams | ✅ Solved | Hash map with sorted keys |
+
+#### 🎯 **Key Learnings**
+
+
+#### 🔄 **Next Steps**
 ---
 
 ## 📈 Progress Statistics
