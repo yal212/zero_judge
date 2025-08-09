@@ -58,9 +58,15 @@
 | 125 - Valid Palindrome | ✅ Solved | Two-pointer approach |
 
 #### 🎯 **Key Learnings**
-
+- Practiced array manipulation and matrix operations
+- Learned stack applications for parsing problems
+- Improved understanding of two-pointer technique
+- Explored string processing algorithms
 
 #### 🔄 **Next Steps**
+- Practice more matrix manipulation problems
+- Study advanced string algorithms
+- Review stack and queue implementations
 
 ### 🗓️ August 9, 2025
 
@@ -74,16 +80,22 @@
 | 49 - Group Anagrams | ✅ Solved | Hash map with sorted keys |
 
 #### 🎯 **Key Learnings**
-
+- Mastered character frequency analysis techniques
+- Learned efficient string sorting for anagram detection
+- Practiced hash map usage for grouping problems
+- Improved algorithm optimization skills
 
 #### 🔄 **Next Steps**
+- Explore more hash map applications
+- Practice advanced string manipulation
+- Study sorting algorithm variations
 ---
 
 ## 📈 Progress Statistics
 
-- **Total Problems Solved:** 3 ✅
-- **Problems in Progress:** 1 ⏰
-- **Current Focus:** Arrays & Two Pointers
+- **Total Problems Solved:** 9 ✅
+- **Problems in Progress:** 1 ⏰ (3Sum optimization)
+- **Current Focus:** Arrays, Strings & Hash Maps
 - **Platforms Used:** LeetCode
 
 ---
@@ -91,14 +103,19 @@
 ## 🧠 Learning Notes
 
 ### Key Concepts Practiced
-- **Two-pointer technique** - Efficient for sorted arrays
-- **Hash sets** - O(1) lookup for duplicates
-- **In-place algorithms** - Space-efficient solutions
+- **Two-pointer technique** - Efficient for sorted arrays and palindromes
+- **Hash sets & Hash maps** - O(1) lookup for duplicates and grouping
+- **In-place algorithms** - Space-efficient matrix and array solutions
+- **Stack data structure** - For parsing and validation problems
+- **String manipulation** - Character frequency and anagram detection
+- **Array sorting and merging** - Interval problems and merge operations
 
 ### Areas for Improvement
-- Time complexity optimization
-- Advanced array algorithms
+- Time complexity optimization (especially for nested loops)
+- Advanced array algorithms and edge case handling
 - Dynamic programming foundations
+- Matrix manipulation techniques
+- Advanced string processing algorithms
 
 ---
 
