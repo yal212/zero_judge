@@ -11,6 +11,7 @@
 - [ ] **LeetCode 53** - Maximum Subarray
 - [ ] **LeetCode 15** - 3Sum (Need to optimize - currently TLE)
 - [ ] **Leecode 5**
+- [ ]
 
 ---
 
@@ -84,6 +85,24 @@
 - Explore more hash map applications
 - Practice advanced string manipulation
 - Study sorting algorithm variations
+
+### 🗓️ August 10, 2025
+
+#### ✅ **Completed Problems**
+**Platform:** Leetcode
+**Topic:** Strings, Arrays
+
+| Problem | Status | Notes |
+|---------|--------|-------|
+| 5
+| 238 
+
+#### 🎯 **Key Learnings**
+- 
+
+#### 🔄 **Next Steps**
+- 
+
 ---
 
 ## 📈 Progress Statistics
