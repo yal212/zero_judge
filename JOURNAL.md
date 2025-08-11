@@ -12,11 +12,6 @@
 - [ ] **LeetCode 15** - 3Sum (Need to optimize - currently TLE)
 - [ ] **Leecode 5**
 
-### 🔄 Review & Optimization
-- [ ] Revisit TLE solutions and optimize
-- [ ] Practice more dynamic programming problems
-- [ ] Study time complexity optimization techniques
-
 ---
 
 ## 📅 Daily Progress Log
