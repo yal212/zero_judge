@@ -25,3 +25,33 @@ class Solution:
                 left += 1
                 cur = s[left:right+1]
         return min_s
+
+
+# cheat
+class Solution:
+    def minWindow(self, s: str, t: str) -> str:
+        if not s or not t:
+            return ""
+        dict_t = {}
+        for c in t:
+            dict_t[c] = dict_t.get(c, 0) + 1
+        l = len(dict_t)
+        got = 0
+        left, right = 0, 0
+        cur = {}
+        ans = (float("inf"), None, None)
+        while right < len(s):
+            char = s[right]
+            cur[char] = cur.get(char, 0) + 1
+            if char in dict_t and cur[char] == dict_t[char]:
+                got += 1
+            while left <= right and got == l:
+                char = s[left]
+                if right-left+1 < ans[0]:
+                    ans = (right-left+1, left, right)
+                cur[char] -= 1
+                if char in dict_t and cur[char] < dict_t[char]:
+                    got -= 1
+                left += 1
+            right += 1
+        return "" if ans[0] == float("inf") else s[ans[1]:ans[2]+1]

@@ -7,7 +7,7 @@
 ## 🎯 Current Goals & TODO List
 
 ### 📊 Arrays & Data Structures
-- [ ] Optimize 76 - Minimum Window Substring with an O(n) sliding window using frequency counts
+- [x] Optimize 76 - Minimum Window Substring with an O(n) sliding window using frequency counts
 
 ---
 
@@ -122,12 +122,34 @@
 #### 🔄 **Next Steps**
 - Implement optimized 76 using window frequency maps and a satisfied-need counter
 - Do 1-2 more sliding window problems for practice
+
+### 🗓️ August 12, 2025
+
+#### ✅ **Completed Problems**
+**Platform:** LeetCode  
+**Topic:** Strings
+
+| Problem | Status | Notes |
+|---------|--------|-------|
+| 76 - Minimum Window Substring | ✅ Solved | Sliding window with frequency map + satisfied counter |
+| 28 - Find the Index of the First Occurrence in a String | ✅ Solved | Naive slice compare; pre-check is unnecessary; consider KMP |
+| 443 - String Compression | ✅ Solved | Run-length encoding; write counts as digits back into array |
+| 14 - Longest Common Prefix | ✅ Solved | Progressive prefix shrinking across the array |
+| 459 - Repeated Substring Pattern | ✅ Solved | Trick: s in (s+s)[1:-1] |
+
+#### 🎯 **Key Learnings**
+- Sliding window template with need/have counts and minimal window shrinking
+- RLE strategy for compressing strings and handling multi-digit counts
+
+#### 🔄 **Next Steps**
+- Practice KMP/Z-algorithm for pattern matching
+- Do 1-2 more sliding window string problems (e.g., permutation in string)
 ---
 
 ## 📈 Progress Statistics
 
-- **Total Problems Solved:** 13 ✅
-- **Problems in Progress:** 1 ⏰ (76 - Minimum Window Substring)
+- **Total Problems Solved:** 18 ✅
+- **Problems in Progress:** 0 🎉
 - **Current Focus:** Arrays, Strings & Hash Maps
 - **Platforms Used:** LeetCode
 
