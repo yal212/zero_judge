@@ -7,11 +7,7 @@
 ## 🎯 Current Goals & TODO List
 
 ### 📊 Arrays & Data Structures
-- [ ] **LeetCode 238** - Product of Array Except Self
-- [ ] **LeetCode 53** - Maximum Subarray
-- [ ] **LeetCode 15** - 3Sum (Need to optimize - currently TLE)
-- [ ] **Leecode 5**
-- [ ]
+- [ ] Optimize 76 - Minimum Window Substring with an O(n) sliding window using frequency counts
 
 ---
 
@@ -44,7 +40,7 @@
 
 #### ✅ **Completed Problems**
 **Platform:** LeetCode  
-**Topic:** Arrays Strings
+**Topic:** Arrays, Strings
 
 | Problem | Status | Notes |
 |---------|--------|-------|
@@ -68,7 +64,7 @@
 
 #### ✅ **Completed Problems**
 **Platform:** LeetCode  
-**Topic:** Arrays Strings
+**Topic:** Arrays, Strings
 
 | Problem | Status | Notes |
 |---------|--------|-------|
@@ -89,26 +85,49 @@
 ### 🗓️ August 10, 2025
 
 #### ✅ **Completed Problems**
-**Platform:** Leetcode
+**Platform:** LeetCode
 **Topic:** Strings, Arrays
 
 | Problem | Status | Notes |
 |---------|--------|-------|
-| 5
-| 238 
+| 5 - Longest Palindromic Substring | ✅ Solved | Expand-around-center approach |
+| 238 - Product of Array Except Self | ✅ Solved | Prefix and postfix accumulation |
 
 #### 🎯 **Key Learnings**
-- 
+- Expand-around-center is simple and effective for palindromes
+- Prefix/postfix products avoid division and enable O(n) time, O(1) extra space
 
 #### 🔄 **Next Steps**
-- 
+- Review sliding window vs. expand-center patterns for string problems
+- Prep optimized sliding window for 76 (window counts + need/have tracking)
 
+### 🗓️ August 11, 2025
+
+#### ✅ **Completed Problems**
+**Platform:** LeetCode
+**Topic:** Strings, Arrays
+
+| Problem | Status | Notes |
+|---------|--------|-------|
+| 53 - Maximum Subarray | ✅ Solved | Kadane's algorithm (running max) |
+| 15 - 3Sum | ✅ Solved | Sort + two-pointer sweep with duplicate skipping |
+| 76 - Minimum Window Substring | ⏰ TLE | Needs optimized sliding window with frequency counts |
+
+
+#### 🎯 **Key Learnings**
+- Reinforced two-pointer after sorting (duplicate handling is key)
+- Kadane's algorithm for O(n) max subarray
+- Naive inclusion checks cause TLE for 76; need character frequency maps
+
+#### 🔄 **Next Steps**
+- Implement optimized 76 using window frequency maps and a satisfied-need counter
+- Do 1-2 more sliding window problems for practice
 ---
 
 ## 📈 Progress Statistics
 
-- **Total Problems Solved:** 9 ✅
-- **Problems in Progress:** 1 ⏰ (3Sum optimization)
+- **Total Problems Solved:** 13 ✅
+- **Problems in Progress:** 1 ⏰ (76 - Minimum Window Substring)
 - **Current Focus:** Arrays, Strings & Hash Maps
 - **Platforms Used:** LeetCode
 
