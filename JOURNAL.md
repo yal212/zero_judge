@@ -144,13 +144,33 @@
 #### 🔄 **Next Steps**
 - Practice KMP/Z-algorithm for pattern matching
 - Do 1-2 more sliding window string problems (e.g., permutation in string)
+
+### 🗓️ August 12, 2025
+
+#### ✅ **Completed Problems**
+**Platform:** LeetCode  
+**Topic:** Linked Lists
+
+| Problem | Status | Notes |
+|---------|--------|-------|
+| 206 - Reverse Linked List | ✅ Solved | Iterative pointer reversal with `prev`/`curr` |
+| 21 - Merge Two Sorted Lists | ✅ Solved | Iterative merge using dummy head and tail pointer |
+
+#### 🎯 **Key Learnings**
+- Pointer manipulation patterns for singly linked lists
+- Dummy head technique simplifies edge cases during merges
+- Trade-offs: iterative solutions avoid recursion stack overhead
+
+#### 🔄 **Next Steps**
+- Practice cycle detection (Floyd’s Tortoise and Hare)
+- Implement recursive variants and compare with iterative versions
 ---
 
 ## 📈 Progress Statistics
 
-- **Total Problems Solved:** 18 ✅
+- **Total Problems Solved:** 20 ✅
 - **Problems in Progress:** 0 🎉
-- **Current Focus:** Arrays, Strings & Hash Maps
+- **Current Focus:** Arrays, Strings, Hash Maps & Linked Lists
 - **Platforms Used:** LeetCode
 
 ---
