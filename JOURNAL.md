@@ -145,7 +145,7 @@
 - Practice KMP/Z-algorithm for pattern matching
 - Do 1-2 more sliding window string problems (e.g., permutation in string)
 
-### 🗓️ August 12, 2025
+### 🗓️ August 13, 2025
 
 #### ✅ **Completed Problems**
 **Platform:** LeetCode  
@@ -164,6 +164,25 @@
 #### 🔄 **Next Steps**
 - Practice cycle detection (Floyd’s Tortoise and Hare)
 - Implement recursive variants and compare with iterative versions
+
+### 🗓️ August 14, 2025
+
+#### ✅ **Completed Problems**
+**Platform:** LeetCode  
+**Topic:** 
+
+| Problem | Status | Notes |
+|---------|--------|-------|
+| 83
+| 1971
+| 997
+
+#### 🎯 **Key Learnings**
+- 
+
+#### 🔄 **Next Steps**
+- 
+
 ---
 
 ## 📈 Progress Statistics
