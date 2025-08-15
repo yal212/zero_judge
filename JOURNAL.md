@@ -183,6 +183,22 @@
 #### 🔄 **Next Steps**
 - 
 
+### 🗓️ August 15, 2025
+
+#### ✅ **Completed Problems**
+**Platform:** ZeroJudge
+**Topic:** 
+
+| Problem | Status | Notes |
+|---------|--------|-------|
+| o711
+| o712
+
+#### 🎯 **Key Learnings**
+- 
+
+#### 🔄 **Next Steps**
+- 
 ---
 
 ## 📈 Progress Statistics
