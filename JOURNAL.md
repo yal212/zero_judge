@@ -113,7 +113,6 @@
 | 15 - 3Sum | ✅ Solved | Sort + two-pointer sweep with duplicate skipping |
 | 76 - Minimum Window Substring | ⏰ TLE | Needs optimized sliding window with frequency counts |
 
-
 #### 🎯 **Key Learnings**
 - Reinforced two-pointer after sorting (duplicate handling is key)
 - Kadane's algorithm for O(n) max subarray
@@ -162,51 +161,58 @@
 - Trade-offs: iterative solutions avoid recursion stack overhead
 
 #### 🔄 **Next Steps**
-- Practice cycle detection (Floyd’s Tortoise and Hare)
+- Practice cycle detection (Floyd's Tortoise and Hare)
 - Implement recursive variants and compare with iterative versions
 
 ### 🗓️ August 14, 2025
 
 #### ✅ **Completed Problems**
 **Platform:** LeetCode  
-**Topic:** 
+**Topic:** Linked Lists, Graph Theory
 
 | Problem | Status | Notes |
 |---------|--------|-------|
-| 83
-| 1971
-| 997
+| 83 - Remove Duplicates from Sorted List | ✅ Solved | Simple traversal with duplicate removal |
+| 1971 - Find if Path Exists in Graph | ✅ Solved | DFS/BFS for path finding in undirected graph |
+| 997 - Find the Town Judge | ✅ Solved | Graph theory - in-degree counting |
 
 #### 🎯 **Key Learnings**
-- 
+- Graph traversal algorithms (DFS/BFS) for connectivity problems
+- In-degree/out-degree analysis for graph problems
+- Linked list manipulation with duplicate handling
 
 #### 🔄 **Next Steps**
-- 
+- Practice more graph algorithms
+- Study advanced linked list problems
+- Review graph representation methods
 
 ### 🗓️ August 15, 2025
 
 #### ✅ **Completed Problems**
-**Platform:** ZeroJudge
-**Topic:** 
+**Platform:** ZeroJudge  
+**Topic:** Competitive Programming
 
 | Problem | Status | Notes |
 |---------|--------|-------|
-| o711
-| o712
+| o711 - [Problem Name] | ✅ Solved | [Brief notes about solution approach] |
+| o712 - [Problem Name] | ✅ Solved | [Brief notes about solution approach] |
 
 #### 🎯 **Key Learnings**
-- 
+- [Learning point 1]
+- [Learning point 2]
 
 #### 🔄 **Next Steps**
-- 
+- [Next action 1]
+- [Next action 2]
+
 ---
 
 ## 📈 Progress Statistics
 
-- **Total Problems Solved:** 20 ✅
+- **Total Problems Solved:** 25+ ✅
 - **Problems in Progress:** 0 🎉
-- **Current Focus:** Arrays, Strings, Hash Maps & Linked Lists
-- **Platforms Used:** LeetCode
+- **Current Focus:** Arrays, Strings, Hash Maps, Linked Lists & Graph Theory
+- **Platforms Used:** LeetCode, ZeroJudge
 
 ---
 
@@ -219,6 +225,9 @@
 - **Stack data structure** - For parsing and validation problems
 - **String manipulation** - Character frequency and anagram detection
 - **Array sorting and merging** - Interval problems and merge operations
+- **Linked list manipulation** - Pointer operations and dummy head technique
+- **Graph algorithms** - DFS/BFS for connectivity and path finding
+- **Sliding window technique** - For substring and subarray problems
 
 ### Areas for Improvement
 - Time complexity optimization (especially for nested loops)
@@ -226,6 +235,8 @@
 - Dynamic programming foundations
 - Matrix manipulation techniques
 - Advanced string processing algorithms
+- Advanced graph algorithms (Dijkstra, topological sort)
+- Competitive programming techniques
 
 ---
 
