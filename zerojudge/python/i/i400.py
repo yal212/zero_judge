@@ -1,3 +1,2 @@
 from sys import stdin
 input = stdin.readline
-n, m = int(input())
