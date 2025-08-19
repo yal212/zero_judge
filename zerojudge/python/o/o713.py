@@ -14,7 +14,7 @@ for r, row in enumerate(Map):
 
 
 def boom(Map, pos, rad):
-    M, N = len(Map), len(Map[0])
+    # M, N = len(Map), len(Map[0])
     r, c = pos
     squares = set()
     squares.add((r, c))
@@ -51,3 +51,40 @@ while area < j:
     if area < j:
         rad += 1
 print(rad)
+
+
+# NA (score:20%)
+from sys import stdin
+input = stdin.readline
+M, N, J = map(int, input().split())
+data = [list(map(int, input().split())) for _ in range(M)]
+for i in range(M):
+    for j in range(N):
+        if data[i][j] == -2:
+            start = (i, j)
+
+rad = 0
+
+while True:
+    queue = [(start[0], start[1], rad)]
+    visited = {start: rad}
+    while queue:
+        x, y, r = queue.pop(0)
+        if r == 0:
+            continue
+        for dx, dy in [(1, 0), (0, 1), (-1, 0), (0, -1)]:
+            nx, ny = x + dx, y + dy
+            if 0 <= nx < M and 0 <= ny < N:
+                if data[nx][ny] == -1:
+                    continue
+                nr = r - 1
+                if data[nx][ny] > 0 and data[nx][ny] > nr:
+                    nr = data[nx][ny]
+                if (nx, ny) not in visited or nr > visited[(nx, ny)]:
+                    visited[(nx, ny)] = nr
+                    queue.append((nx, ny, nr))
+    if len(visited) < J:
+        rad += 1
+    else:
+        print(rad)
+        break
