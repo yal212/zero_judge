@@ -299,6 +299,25 @@
 #### 🔄 **Next Steps**
 - [Next action 1]
 - [Next action 2]
+
+### 🗓️ August 21, 2025
+
+#### ✅ **Completed Problems**
+**Platform:** ZeroJudge  
+**Topic:** Competitive Programming
+
+| Problem | Status | Notes |
+|---------|--------|-------|
+| m370
+| h027
+
+#### 🎯 **Key Learnings**
+- [Learning point 1]
+- [Learning point 2]
+
+#### 🔄 **Next Steps**
+- [Next action 1]
+- [Next action 2]
 ---
 
 ## 📈 Progress Statistics
