@@ -318,7 +318,7 @@
 
 ---
 
-### 🗓️ August 21, 2025
+### 🗓️ August 22, 2025
 
 #### ✅ Completed Problems
 **Platform:** LeetCode  
@@ -339,7 +339,7 @@
 
 ---
 
-### 🗓️ August 22, 2025
+### 🗓️ August 23, 2025
 
 #### ✅ Completed Problems
 **Platform:** LeetCode  
@@ -360,7 +360,7 @@
 
 ---
 
-### 🗓️ August 23, 2025
+### 🗓️ August 24, 2025
 
 #### ✅ Completed Problems
 **Platform:** LeetCode  
@@ -371,6 +371,26 @@
 | 155
 | 150
 | 22
+
+#### 🎯 Key Learnings
+- 
+- 
+
+#### 🔄 Next Steps
+- 
+
+---
+
+### 🗓️ August 25, 2025
+
+#### ✅ Completed Problems
+**Platform:** ZeroJudge 
+**Topic:** APCS
+
+| Problem | Status | Notes |
+|---------|--------|-------|
+| c575
+| f312
 
 #### 🎯 Key Learnings
 - 
